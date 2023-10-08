@@ -1,0 +1,17 @@
+/* STUDENT, CSC 242, Fall 2022, Assignment 4 */
+
+/* TODO: add at least four style rules */
+
+<style>
+table, th, td {
+        border: 2px solid;
+        text-align: center;
+        background-color:black
+        color:white;
+        width: 50%;
+}
+
+tr:nth-child(odd) {
+            background-color: grey;
+        }
+</style>
