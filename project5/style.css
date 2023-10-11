@@ -1,0 +1,27 @@
+body {
+	background-color:tan;
+}
+h1 {
+	text-align: center;
+	border: 2px solid;
+}
+thead th {
+        text-align: center;
+}
+tbody, td {
+        text-align: center;
+        border: 2px solid;
+        padding: 0.5rem;
+        width:75%;
+}
+
+/*
+Author: Maharkus
+Publication Date: 10/26/2017
+Title and Version: Placing tr:nth-child(even) inside a table tag
+Source: https://stackoverflow.com/questions/46957570/placing-trnth-childeven-inside-a-table-tag
+Date Retrieved: 10/13/2022
+*/
+tr:nth-child(even) {
+        background-color: grey;
+}
