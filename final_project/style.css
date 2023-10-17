@@ -1,0 +1,55 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}	
+li {
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px 14px;
+}
+body {
+	background-color: grey;
+}
+h1{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+h2{
+	font-family: "Arial Black", "Arial", "SANS-SERIF FONT FAMILY";	
+}
+p {
+	font-family: "Arial Rounded MT Bold", "Arial", "SANS-SERIF FONT FAMILY";
+}
+thead th {
+        text-align: center;
+}
+tbody, td {
+        text-align: center;
+        border: 2px solid;
+        padding: 0.5rem;
+        width:75%;
+}
+input {
+	background-color: black;
+	color: white;
+}
+/*
+ * Author: Maharkus
+ * Publication Date: 10/26/2017
+ * Title and Version: Placing tr:nth-child(even) inside a table tag
+ * Source: https://stackoverflow.com/questions/46957570/placing-trnth-childeven-inside-a-table-tag
+ * Date Retrieved: 12/2/2022
+ * */
+tr:nth-child(even) {
+        background-color: black;
+	color:white;
+	
+}
